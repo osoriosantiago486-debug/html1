@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Taller 2 - Trabajo final</title>
+
+    <!-- Enlazamos el CSS (archivo en la misma carpeta) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="contenedor">
+        <!-- Cabecera / título -->
+        <header>
+            <h1 id="titulo">Taller práctico </h1>
+        </header>
+        <!-- Botón que cambia el título -->
+        <section class="accion">
+            <button id="btnCambiar">Cambiar título</button>
+            <p class="nota">Presiona para alternar el texto del título.</p>
+        </section>
+        <!-- Calculadora simple (suma) -->
+        <section class="suma">
+            <h2>Calculadora (suma)</h2>
+            <div class="inputs">
+                <input type="number" id="num1" placeholder="Número 1" />
+                <input type="number" id="num2" placeholder="Número 2" />
+                <button id="btnSumar">Calcular suma</button>
+            </div>
+            <p>Resultado: <span id="resultado">0</span></p>
+        </section>
+
+        <footer class="pie">
+            <small>Hecho por: (tu nombre)</small>
+        </footer>
+    </main>
+
+    <!-- Enlazamos el JavaScript (archivo en la misma carpeta) -->
+    <script src="script.js"></script>
+</body>
+
+</html>

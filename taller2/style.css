@@ -1,0 +1,60 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+    background-color: #dce2e7;   /* fondo azul claro */
+    font-family: Verdana, sans-serif;  /* tipografía  */
+    color: #333;                 /* color del texto */
+    padding: 20px;
+}
+
+/* ====== TÍTULOS ====== */
+h1 {
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #444;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+/* ====== LISTAS ====== */
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+/* ====== BOTONES ====== */
+button {
+  background-color: #4CAF50;   /* verde */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* ====== INPUTS DE LA SUMA ====== */
+input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* ====== RESULTADO DE LA SUMA ====== */
+#resultado {
+  font-weight: bold;
+  color: crimson;
+}
+
+/* ====== PIE DE PÁGINA ====== */
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: gray;
+}
